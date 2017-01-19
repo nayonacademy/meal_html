@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Prochito Meal Management | Page</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <link href="css/daterangepicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/morris.css" rel="stylesheet" type="text/css" />
+        <link href="css/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL STYLES -->
+        <link href="css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="css/custom.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME LAYOUT STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <!-- END HEAD -->
+
+    <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+        <div class="page-wrapper">
+            <!-- BEGIN HEADER -->
+            <div class="page-header navbar navbar-fixed-top">
+                <!-- BEGIN HEADER INNER -->
+                <div class="page-header-inner ">
+                    <!-- BEGIN LOGO -->
+                    <div class="page-logo">
+                        <a href="index.html">
+                            <img src="assets/layouts/layout/img/logo.png" alt="logo" class="logo-default" /> </a>
+                        <div class="menu-toggler sidebar-toggler">
+                            <span></span>
+                        </div>
+                    </div>
+                    <!-- END LOGO -->
+                    <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                    <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span></span>
+                    </a>
+                    <!-- END RESPONSIVE MENU TOGGLER -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown dropdown-user">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <img alt="" class="img-circle" src="assets/layouts/layout/img/avatar3_small.jpg" />
+                                    <span class="username username-hide-on-mobile"> Nick </span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-default">
+                                    <li>
+                                        <a href="page_user_profile_1.html">
+                                            <i class="icon-user"></i> My Profile </a>
+                                    </li>
+                                    <li>
+                                        <a href="page_user_login_1.html">
+                                            <i class="icon-key"></i> Log Out </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- END USER LOGIN DROPDOWN -->
+
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU -->
+                </div>
+                <!-- END HEADER INNER -->
+            </div>
+            <!-- END HEADER -->
+            <!-- BEGIN HEADER & CONTENT DIVIDER -->
+            <div class="clearfix"> </div>
+            <!-- END HEADER & CONTENT DIVIDER -->
+            <!-- BEGIN CONTAINER -->
+            <div class="page-container">
+                <!-- BEGIN SIDEBAR -->
+                <div class="page-sidebar-wrapper">
+                    <!-- BEGIN SIDEBAR -->
+                    <div class="page-sidebar navbar-collapse collapse">
+                        <!-- BEGIN SIDEBAR MENU -->
+                        <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+                            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                            <li class="sidebar-toggler-wrapper hide">
+                                <div class="sidebar-toggler">
+                                    <span></span>
+                                </div>
+                            </li>
+                            <!-- END SIDEBAR TOGGLER BUTTON -->
+                            <li class="sidebar-search-wrapper">
+                                <!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
+                                <form class="sidebar-search" action="page_general_search_3.html" method="POST">
+                                    <a href="javascript:;" class="remove">
+                                        <i class="icon-close"></i>
+                                    </a>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search...">
+                                        <span class="input-group-btn">
+                                            <a href="javascript:;" class="btn submit">
+                                                <i class="icon-magnifier"></i>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </form>
+                                <!-- END RESPONSIVE QUICK SEARCH FORM -->
+                            </li>
+                            <li class="nav-item start active open">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-home"></i>
+                                    <span class="title">Dashboard</span>
+                                    <span class="selected"></span>
+                                    <span class="arrow open"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item start active open">
+                                        <a href="index.html" class="nav-link ">
+                                            <i class="icon-bar-chart"></i>
+                                            <span class="title">Dashboard 1</span>
+                                            <span class="selected"></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item start ">
+                                        <a href="dashboard_2.html" class="nav-link ">
+                                            <i class="icon-bulb"></i>
+                                            <span class="title">Dashboard 2</span>
+                                            <span class="badge badge-success">1</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item start ">
+                                        <a href="dashboard_3.html" class="nav-link ">
+                                            <i class="icon-graph"></i>
+                                            <span class="title">Dashboard 3</span>
+                                            <span class="badge badge-danger">5</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                                               
+                            <li class="heading">
+                                <h3 class="uppercase">Layouts</h3>
+                            </li>
+                            
+                            
+                            
+                            <li class="nav-item  ">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-settings"></i>
+                                    <span class="title">System</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item  ">
+                                        <a href="page_cookie_consent_1.html" class="nav-link ">
+                                            <span class="title">Cookie Consent 1</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="page_cookie_consent_2.html" class="nav-link ">
+                                            <span class="title">Cookie Consent 2</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="page_system_coming_soon.html" class="nav-link " target="_blank">
+                                            <span class="title">Coming Soon</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="page_system_404_1.html" class="nav-link ">
+                                            <span class="title">404 Page 1</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="page_system_404_2.html" class="nav-link " target="_blank">
+                                            <span class="title">404 Page 2</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="page_system_404_3.html" class="nav-link " target="_blank">
+                                            <span class="title">404 Page 3</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="page_system_500_1.html" class="nav-link ">
+                                            <span class="title">500 Page 1</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="page_system_500_2.html" class="nav-link " target="_blank">
+                                            <span class="title">500 Page 2</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- END SIDEBAR MENU -->
+                    </div>
+                    <!-- END SIDEBAR -->
+                </div>
+                <!-- BEGIN CONTENT -->
+                <div class="page-content-wrapper">
+                    <!-- BEGIN CONTENT BODY -->
+                    <div class="page-content">
+                        <div class="page-bar">
+                            <ul class="page-breadcrumb">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                    <i class="fa fa-circle"></i>
+                                </li>
+                                <li>
+                                    <span>Dashboard</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- END PAGE BAR -->
+                        <h1 class="page-title"> January
+                            <small>Meal Report </small>
+                        </h1>
+                        <!-- BEGIN DASHBOARD STATS 1-->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="portlet light bg-inverse form-fit">
+                                    <div class="portlet-body form">
+                                        <!-- BEGIN FORM-->
+                                        <div class="portlet box green">
+                                    <div class="portlet-title">
+                                        <div class="caption">
+                                            <i class="fa fa-cogs"></i>January Meal report 
+                                        </div>
+                                    </div>
+                                    <div class="portlet-body flip-scroll">
+                                        <table class="table table-bordered table-striped table-condensed flip-content">
+                                            <thead class="flip-content">
+                                                <tr>
+                                                    <th> Name </th>
+                                                    <th> 1 </th>
+                                                    <th>2</th>
+                                                    <th>3</th>
+                                                    <th>4</th>
+                                                    <th>5</th>
+                                                    <th>6</th>
+                                                    <th>7</th>
+                                                    <th>8</th>
+                                                    <th>9</th>
+                                                    <th>10</th>
+                                                    <th>11</th>
+                                                    <th>12</th>
+                                                    <th>13</th>
+                                                    <th>14</th>
+                                                    <th>16</th>
+                                                    <th>17</th>
+                                                    <th>18</th>
+                                                    <th>19</th>
+                                                    <th>20</th>
+                                                    <th>21</th>
+                                                    <th>22</th>
+                                                    <th>23</th>
+                                                    <th>24</th>
+                                                    <th>25</th>
+                                                    <th>26</th>
+                                                    <th class="numeric"> Total </th>
+                                                    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td> Shariful Islam</td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> 20 </td>                                        
+                                                </tr>                                                
+                                                <tr>
+                                                    <td> Shariful Islam</td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> <input type="checkbox" id="cbox2"> </td>
+                                                    <td> 20 </td>                                        
+                                                </tr>
+                                                
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                        <!-- END FORM-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <!-- END DASHBOARD STATS 1--> 
+                    </div>
+                    <!-- END CONTENT BODY -->
+                </div>
+            </div>
+            <!-- END CONTAINER -->
+            <!-- BEGIN FOOTER -->
+            <div class="page-footer">
+                <div class="page-footer-inner"> 2017 &copy; Prochito ITS
+                </div>
+                <div class="scroll-to-top">
+                    <i class="icon-arrow-up"></i>
+                </div>
+            </div>
+            <!-- END FOOTER -->
+        </div>
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- <script src="js/js.cookie.min.js" type="text/javascript"></script> -->
+        <script src="js/jquery.slimscroll.min.js" type="text/javascript"></script>
+        <!-- <script src="assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script> -->
+        <script src="js/bootstrap-switch.min.js" type="text/javascript"></script>
+        <!-- END CORE PLUGINS -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <script src="js/moment.min.js" type="text/javascript"></script>
+        <script src="js/daterangepicker.min.js" type="text/javascript"></script>
+        <script src="js/morris.min.js" type="text/javascript"></script>
+        <script src="js/raphael-min.js" type="text/javascript"></script>
+        <script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+        <script src="js/jquery.counterup.min.js" type="text/javascript"></script> 
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <script src="js/app.min.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <script src="js/dashboard.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL SCRIPTS -->
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/demo.min.js" type="text/javascript"></script>
+        <script src="js/quick-sidebar.min.js" type="text/javascript"></script>
+
+    </body>
